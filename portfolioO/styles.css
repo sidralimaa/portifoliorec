@@ -1,0 +1,134 @@
+.cabecalho{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    background-color: rgb(13, 0, 37);
+    width: 95%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    position: absolute;
+    font-family: "Roboto Slab", serif;
+    font-style: normal;   
+    margin-left: 16px;
+  }
+  
+  .cabecalhoimg{
+  margin-left: 30px;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  } 
+
+  
+.rodape{
+    background-color: rgb(13, 0, 37);
+    width: 95%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 820px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.9s ease;
+  }
+  
+  a:hover {
+    color: #f0b3ff;
+  }
+
+  .imgO{
+    position: absolute;
+    margin-top: 13%;
+  }
+
+  
+  .txt1 {
+    position: absolute;
+    margin-left: 870px;
+    font-size: small;
+    margin-top: 240px;
+  }
+  
+/* Responsividade */
+@media (max-width: 1024px) {
+  .nomeI, .nomeO, .nomeC {
+      margin-left: 700px;
+      font-size: 35px;
+  }
+
+  .trioimg {
+      width: 90%;
+      height: auto;
+      margin-left: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nomeI, .nomeO, .nomeC {
+      margin-left: 500px;
+      font-size: 30px;
+  }
+
+  .botaoI, .botaoO, .botaoC {
+      margin-left: 500px;
+  }
+
+  .cabecalhoimg, .trioimg {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .cabecalho {
+      width: 100%;
+      margin-left: 0;
+  }
+
+  .rodape {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 1000px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nomeI, .nomeO, .nomeC {
+      margin-left: 20px;
+      font-size: 25px;
+  }
+
+  .botaoI, .botaoO, .botaoC {
+      margin-left: 20px;
+      width: 80px;
+      height: 40px;
+  }
+
+  .trioimg {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      margin-top: 150px;
+  }
+
+  .cabecalho {
+      width: 100%;
+      padding: 10px;
+      margin-left: 0;
+  }
+
+  .rodape {
+      width: 100%;
+      padding: 10px;
+      margin-left: 0;
+      margin-top: 1100px;
+  }
+
+}
